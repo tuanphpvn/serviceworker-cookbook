@@ -32,8 +32,9 @@ We are always happy to accept contributions!  You can follow the process below t
 1.  Clone this repository
 2.  Execute `cd serviceworker-cookbook && npm install`
 3.  Copy the `_recipe_template` directory, rename it, and add all recipe code and resources within that new directory
-3.  Execute `gulp watch` to start the server
-4.  Navigate to http://localhost:3000 to develop and test your recipe
+4.  export GCM_API_KEY='<Your key>'
+5.  Execute `gulp watch` to start the server
+6.  Navigate to http://localhost:3000 to develop and test your recipe
 
 When it's all done, please submit a pull request to the [ServiceWorker Cookbook](https://github.com/mozilla/serviceworker-cookbook).
 
